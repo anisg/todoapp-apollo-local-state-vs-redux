@@ -1,23 +1,25 @@
 
 little repository to compare apollo local state vs redux.
 
+[live DEMO](https://anisg.github.io/todoapp/)
+
 ![screenshot](./screenshot.png)
 
 interesting files to checkout:
 
 Apollo Local State:
 
-- `pages/Root.tsx` in todoapp-with-apollo/src/pages/Root.tsx
-- `resolvers.ts` in todoapp-with-apollo/src/resolvers.ts 
-- `index.tsx` in todoapp-with-apollo/src/index.tsx 
+- [`pages/Root.tsx`](todoapp-with-apollo/src/pages/Root.tsx)
+- [`resolvers.ts`](todoapp-with-apollo/src/resolvers.ts)
+- [`index.tsx`](todoapp-with-apollo/src/index.tsx) 
 
 Redux:
 
-- `pages/Root.tsx` in todoapp-with-redux/src/pages/Root.tsx 
-- `redux/reducer.ts` in todoapp-with-redux/src/redux/reducer.ts
-- `redux/actions.ts` in todoapp-with-redux/src/redux/actions.ts
-- `redux/state.ts` in todoapp-with-redux/src/redux/state.ts
-- `index.tsx` in todoapp-with-apollo/src/index.tsx 
+- [`pages/Root.tsx`](todoapp-with-redux/src/pages/Root.tsx)
+- [`redux/reducer.ts`](todoapp-with-redux/src/redux/reducer.ts)
+- [`redux/actions.ts`](todoapp-with-redux/src/redux/actions.ts)
+- [`redux/state.ts`](todoapp-with-redux/src/redux/state.ts)
+- [`index.tsx`](todoapp-with-apollo/src/index.tsx)
 
 
 ## test it
@@ -37,7 +39,16 @@ $> yarn global add apollo
 $> apollo plugins:link ./scripts/generate-local-graphql
 ```
 
-above commands add homemade plugin `./scripts/generate-local-graphql` to apollo CLI, it is used to generate local typescript types
+above commands add homemade plugin `./scripts/generate-local-graphql` to apollo CLI
+
+then:
+
+```
+$> apollo generate-local-graphql
+```
+
+generate-local-graphql is a homemade plugin which generates graphql types and operations.
+
 
 ### todoapp-with-redux
 

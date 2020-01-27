@@ -41,7 +41,7 @@
       "react-hooks/rules-of-hooks": "warn"
     }
   },
-  "proxy": "http://localhost:4000",
+  "homepage": "https://anisg.github.io/todoapp",
   "browserslist": {
     "production": [
       ">0.2%",
