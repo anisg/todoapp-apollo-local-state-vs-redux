@@ -1,19 +1,19 @@
 
-little repository to compare apollo local state vs redux.
+little repository to compare apollo local state vs redux local state.
 
 [live DEMO](https://anisg.github.io/todoapp/)
 
 ![screenshot](./screenshot.png)
 
-interesting files to checkout:
+## interesting files to checkout
 
-Apollo Local State:
+### todoapp-with-apollo
 
 - [`pages/Root.tsx`](todoapp-with-apollo/src/pages/Root.tsx)
 - [`resolvers.ts`](todoapp-with-apollo/src/resolvers.ts)
 - [`index.tsx`](todoapp-with-apollo/src/index.tsx) 
 
-Redux:
+## todoapp-with-redux
 
 - [`pages/Root.tsx`](todoapp-with-redux/src/pages/Root.tsx)
 - [`redux/reducer.ts`](todoapp-with-redux/src/redux/reducer.ts)
