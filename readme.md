@@ -22,7 +22,7 @@ Redux:
 - [`index.tsx`](todoapp-with-apollo/src/index.tsx)
 
 
-## test it
+## dev
 
 ### todoapp-with-apollo
 
@@ -32,22 +32,15 @@ $> yarn install
 $> yarn start
 ```
 
-if you want to edit the graphql code:
+if you want to edit the graphql operations in [`pages/Root.tsx`](todoapp-with-redux/src/pages/Root.tsx):
 
 ```
 $> yarn global add apollo
 $> apollo plugins:link ./scripts/generate-local-graphql
-```
-
-above commands add homemade plugin `./scripts/generate-local-graphql` to apollo CLI
-
-then:
-
-```
 $> apollo generate-local-graphql
 ```
 
-generate-local-graphql is a homemade plugin which generates graphql types and operations.
+generate-local-graphql is a homemade plugin which generates graphql types and operations for typescript.
 
 
 ### todoapp-with-redux
