@@ -22,7 +22,7 @@ Redux:
 - [`index.tsx`](todoapp-with-apollo/src/index.tsx)
 
 
-## dev
+## run the apps
 
 ### todoapp-with-apollo
 
