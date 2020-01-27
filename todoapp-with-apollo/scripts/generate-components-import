@@ -1,0 +1,7 @@
+#!/usr/bin/env node
+var ArgumentParser = require('argparse').ArgumentParser;
+var chokidar = require('chokidar');
+
+const generateIndexTs = (path) => {
+    //todo
+}

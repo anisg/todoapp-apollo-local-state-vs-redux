@@ -1,0 +1,59 @@
+{
+  "name": "hackernews-front",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.25",
+    "@fortawesome/free-solid-svg-icons": "^5.11.2",
+    "@fortawesome/react-fontawesome": "^0.1.7",
+    "@apollo/client": "^3.0.0-beta.23",
+    "@graphql-codegen/cli": "^1.11.2",
+    "@rebass/forms": "^4.0.6",
+    "@rebass/preset": "^4.0.5",
+    "@storybook/react": "5.2.8",
+    "@types/jest": "^24.0.0",
+    "@types/node": "^12.0.0",
+    "@types/react": "^16.9.0",
+    "@types/react-dom": "^16.9.0",
+    "immer": "^5.3.2",
+    "prettier": "^1.19.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-router": "^5.1.2",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.3.0",
+    "styled-components": "^4.4.1",
+    "typescript": "~3.7.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "format": "prettier --write \"src/**/*.{graphql,ts,tsx,js,jsx,json,md}\" ",
+    "storybook": "start-storybook -p 9009 -s public",
+    "build-storybook": "build-storybook -s public",
+    "generate": "apollo hello"
+  },
+  "eslintConfig": {
+    "extends": "react-app",
+    "rules": {
+      "react-hooks/rules-of-hooks": "warn"
+    }
+  },
+  "proxy": "http://localhost:4000",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+  }
+}
